@@ -99,6 +99,14 @@ footer .footer-contacts {
   line-height: 1.5;
 }
 
+footer .footer-contacts a {
+  color: #333;
+}
+
+footer .footer-contacts a:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   footer .footer-contacts {
     text-align: center;

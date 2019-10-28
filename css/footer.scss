@@ -65,6 +65,14 @@ footer {
         font-size: 21px;
         line-height: 1.5;
 
+        a {
+            color: #333;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
         @include sm-block {
             text-align: center;
         }
